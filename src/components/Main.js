@@ -1,38 +1,76 @@
 import React from 'react';
 
 const main = `
-  flex flex-col items-center
-  col-span-12 p-4
-  sm:col-span-12 sm:p-6
+  flex 
+  flex-col 
+  items-center
+  col-span-12 
+  p-4
+  sm:col-span-12 
+  sm:p-6
   md:col-span-12
   lg:col-span-9
   2xl:col-span-10
 `;
+
 const section = `
-  p-4 bg-white rounded-xl shadow-lg
+  p-4 
+  bg-white 
+  rounded-xl 
+  shadow-lg
   sm:p-8
   md:p-12
   lg:
   xl:
-  2xl:w-3/4 2xl:py-12 2xl:px-24
+  2xl:w-3/4 
+  2xl:py-12 
+  2xl:px-24
 `;
+
 const h2 = `
-  text-4xl font-extralight text-gray-800 text-center
+  text-4xl 
+  font-extralight 
+  text-gray-800 
+  text-center
   sm:text-left
   md:
   lg:
   xl:my-10
 `;
-const span = `text-blue-400 font-semibold`;
-const img = `filter invert grayscale rounded-lg w-full max-h-72 object-cover
+
+const span = `
+  text-blue-400 
+  font-semibold
+`;
+
+const img = `
+  filter 
+  invert 
+  grayscale 
+  rounded-lg 
+  w-full 
+  max-h-72 
+  object-cover
   my-4
 `;
-const caption = `text-sm text-gray-500 italic
+
+const caption = `
+  text-sm 
+  text-gray-500 
+  italic
   m-4
   sm:m-6
-  2xl:m-10`;
-const p = `my-6 text-lg text-gray-800 text-justify
-  2xl:my-10`;
+  2xl:m-10
+`;
+
+const p = `
+  my-6 
+  text-lg 
+  text-gray-800 
+  text-justify
+  2xl:my-10
+`;
+
 const image = `https://media.istockphoto.com/vectors/set-of-rustic-realistic-feathers-of-different-birds-owls-peacocks-vector-id1022255880`
 
 const Main = () => {
