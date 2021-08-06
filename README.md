@@ -10,3 +10,4 @@
 * [Tailwind Documentation](https://tailwindcss.com/docs)
 * [Tailwind Cheat Sheet](https://nerdcave.com/tailwind-cheat-sheet)
 * [Netlify Deployment Settings](https://dev.to/jtwray/netlify-deployment-config-settings-for-craco-react-apps-4ini)
+* [Hero Icons Installation](https://github.com/tailwindlabs/heroicons)

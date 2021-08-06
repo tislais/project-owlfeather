@@ -1,17 +1,27 @@
 import React from 'react';
 
+const Side = () => {
+  return (
+    <nav className={nav}>
+      <ul className={ul}>
+        <li className={li + selected}>Home</li>
+        <li className={li}>Product</li>
+        <li className={li}>Docs</li>
+        <li className={li}>Company</li>
+        <li className={li}>Contact</li>
+      </ul>
+    </nav>
+  )
+};
+
 const nav = `
   hidden
-
   sm:block
   sm:col-span-12 
-
   md:col-span-12
-
   lg:col-span-3
-
   2xl:col-span-3
-  `;
+`;
 
 const ul = `
   flex 
@@ -69,19 +79,5 @@ const selected = `
   bg-opacity-10 
   2xl:text-white
 `;
-
-const Side = () => {
-  return (
-    <nav className={nav}>
-      <ul className={ul}>
-        <li className={li + selected}>Home</li>
-        <li className={li}>Product</li>
-        <li className={li}>Docs</li>
-        <li className={li}>Company</li>
-        <li className={li}>Contact</li>
-      </ul>
-    </nav>
-  )
-};
 
 export default Side;
