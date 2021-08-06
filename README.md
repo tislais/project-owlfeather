@@ -9,4 +9,4 @@
 * [React + Tailwind Installation](https://tailwindcss.com/docs/guides/create-react-app)
 * [Tailwind Documentation](https://tailwindcss.com/docs)
 * [Tailwind Cheat Sheet](https://nerdcave.com/tailwind-cheat-sheet)
-
+* [Netlify Deployment Settings](https://dev.to/jtwray/netlify-deployment-config-settings-for-craco-react-apps-4ini)

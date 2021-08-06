@@ -3,27 +3,26 @@ import React from 'react';
 const main = `
   flex 
   flex-col 
-  items-center
   col-span-12 
   p-4
   sm:col-span-12 
   sm:p-6
   md:col-span-12
   lg:col-span-9
-  2xl:col-span-10
+  2xl:col-span-9
 `;
 
 const section = `
-  p-4 
+  p-6 
   bg-white 
   rounded-xl 
   shadow-lg
+
   sm:p-8
+  
   md:p-12
-  lg:
-  xl:
-  2xl:w-3/4 
-  2xl:py-12 
+
+  2xl:py-12
   2xl:px-24
 `;
 
@@ -33,8 +32,6 @@ const h2 = `
   text-gray-800 
   text-center
   sm:text-left
-  md:
-  lg:
   xl:my-10
 `;
 
@@ -65,9 +62,11 @@ const caption = `
 
 const p = `
   my-6 
-  text-lg 
+  text-md
   text-gray-800 
   text-justify
+
+  md:text-lg 
   2xl:my-10
 `;
 
