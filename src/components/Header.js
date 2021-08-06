@@ -20,6 +20,7 @@ const header = `
   border-b-8
   border-black
   border-opacity-30
+  gap-4
 `;
 
 const h1 = `
