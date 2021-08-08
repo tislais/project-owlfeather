@@ -24,10 +24,13 @@ const header = `
 `;
 
 const h1 = `
-  text-md 
   font-semibold 
   tracking-wider 
   uppercase
+  w-full
+  mx-auto
+  xl:max-w-screen-xl
+  xl:pl-6
 `;
 
 export default Header;

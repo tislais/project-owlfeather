@@ -18,23 +18,17 @@ const nav = `
   hidden
   sm:block
   sm:col-span-12 
-  md:col-span-12
   lg:col-span-3
   2xl:col-span-3
 `;
 
 const ul = `
   flex 
-  flex-row 
   gap-4
-  text-gray-200 
-  text-lg 
-  tracking-wider 
   shadow-md
-
-  sm:bg-gray-800
-  sm:justify-evenly 
-  sm:p-2
+  bg-gray-800
+  justify-evenly 
+  p-2
 
   lg:gap-1
   lg:my-6
@@ -48,6 +42,8 @@ const ul = `
 
 const li = `
   px-4 
+  tracking-wider 
+  text-gray-200 
   cursor-pointer
   w-full
   text-center
@@ -56,12 +52,12 @@ const li = `
   hover:text-white
   hover:border-opacity-30 
 
-  sm:text-sm
-  sm:hover:bg-white
-  sm:hover:bg-opacity-10
-  sm:rounded-full
-  sm:px-6
-  sm:py-2
+  text-sm
+  hover:bg-white
+  hover:bg-opacity-10
+  rounded-full
+  px-6
+  py-2
 
   lg:text-left
   lg:mb-2

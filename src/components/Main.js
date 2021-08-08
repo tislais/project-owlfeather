@@ -27,11 +27,10 @@ const main = `
   flex-col 
   col-span-12 
   p-4
-  sm:col-span-12 
+  text-gray-800 
+
   sm:p-6
-  md:col-span-12
   lg:col-span-9
-  2xl:col-span-9
 `;
 
 const section = `
@@ -39,6 +38,7 @@ const section = `
   bg-white 
   rounded-xl 
   shadow-lg
+
   sm:p-8
   md:p-12
   2xl:py-12
@@ -48,7 +48,6 @@ const section = `
 const h2 = `
   text-4xl 
   font-extralight 
-  text-gray-800 
   text-center
   sm:text-left
   xl:my-10
@@ -81,9 +80,8 @@ const caption = `
 
 const p = `
   my-6 
-  text-md
-  text-gray-800 
   text-justify
+
   md:text-lg 
   2xl:my-10
 `;

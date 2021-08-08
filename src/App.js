@@ -4,18 +4,23 @@ import Main from './components/Main';
 
 function App() {
   return (
-    <div className={div}>
+    <>
       <Header />
-      <Side />
-      <Main />
-      </div>
+      <div className={div}>
+        <Side />
+        <Main />
+        </div>
+    </>
   );
 }
 
 const div = `
   h-full 
+  w-full
   grid 
   grid-cols-12 
+  xl:max-w-screen-xl
+  mx-auto
 `;
 
 export default App;
